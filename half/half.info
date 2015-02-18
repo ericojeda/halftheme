@@ -1,0 +1,30 @@
+name = Half
+description = 'A custom setup theme developed by HCK2 Partners.'
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = _style/layout.css
+#stylesheets[all][] = _style/theme.dark.css
+
+#scripts[] = _behavior/jquery.min.js
+scripts[] = _behavior/jquery.cycle2.min.js
+scripts[] = _behavior/half.js
+
+#regions[header_top] = Header top
+regions[header] = Header
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[featured] = Featured
+regions[content] = Content
+regions[sidebar_first] = Sidebar first
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+regions[footer] = Footer
+
+settings[shortcut_module_link] = 0

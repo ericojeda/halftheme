@@ -1,0 +1,119 @@
+/*
+Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+@font-face {font-family:'RobotoCondensed';
+    src: url('../fonts/robotocondensed-light-webfont.eot');
+    src: url('../fonts/robotocondensed-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/robotocondensed-light-webfont.woff') format('woff'),
+         url('../fonts/robotocondensed-light-webfont.ttf') format('truetype'),
+         url('../fonts/robotocondensed-light-webfont.svg#RobotoCondensed') format('svg');
+    font-weight:normal; font-style:normal;}
+
+body
+{
+	/* Font */
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 14px;
+	line-height: 1.2;
+}
+
+a
+{
+	color: #c91d18;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+   font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: block; /* For IE8 */
+}
+
+figure figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+.paragraph-header {
+  font-size: 15px;
+  font-weight: bold;
+  color:rgb(0,0,0);
+  line-height: 1;
+  margin:0;
+}
+
+.red-roboto-header {
+	font-size: 20px;
+	color: #c91d18;
+	font-family: 'RobotoCondensed';
+	margin: 0;
+	line-height: 1;
+}
+
