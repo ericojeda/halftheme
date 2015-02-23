@@ -101,6 +101,11 @@ body.front div.messages {
 	float:right;
 }
 
+#triptych {
+	border:solid #000;
+	border-width: 0 6px;
+}
+
 .region-triptych-first,
 .region-triptych-middle,
 .region-triptych-last {
